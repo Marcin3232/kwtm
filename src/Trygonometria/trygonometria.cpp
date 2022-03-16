@@ -2,6 +2,18 @@
 #include <cmath>
 
 double degreemath::sin(double degree) {
-         //zamiana stopni na radiany:  pi radianów = 180 stopni
-         //return std::sin(radian);   //funkcja biblioteczna z piku <cmath>
+         return std::sin(sin(degree));
 }
+
+double degreemath::cos(double degree) {
+         return std::cos(cos(degree));
+}
+
+double degreemath::tg(double degree) {
+         return std::tg(tg(degree));
+}
+
+double degreemath::ctg(double degree) {
+         return std::ctg(ctg(degree));
+}
+
